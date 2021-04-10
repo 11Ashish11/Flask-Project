@@ -1,0 +1,29 @@
+
+{% extends 'base.html' %}
+
+{% block head %}
+
+<div style="background-color: aqua; color: black;">
+<h1 class="text-center bg-light" style="margin: 30px 30px 50px 30px; color: chartreuse;"> Fuzzy logic control for a wind/battery renewable energy production system </h1>  </div>
+{% endblock %}
+
+ {% block body %} 
+
+  <div>
+      <h3 style="margin: 40px 40px 40px 40px;" class="text-center">
+          Enter the details below
+      </h3>
+
+
+      <form class="text-center">
+        <label for="fname">Enter the number of wind mills:</label>
+        <input type="number" id="fname" name="fname" ><br><br>
+        <label for="lname">Enter the speed of wind :</label>
+        <input type="number" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+  </div>
+
+
+ {% endblock %}

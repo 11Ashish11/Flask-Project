@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: aqua;">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <h1 class="text-center" style="margin: 40px 40px 40px 40px; background-color: cornsilk; color: olivedrab; border-width: 5px; border-style: solid; border-color: red;"  >Results:</h1>
+    <div class="text-center">
+    <p><strong>WIND SPEED: </strong>{{ value1 }}</p>
+    <p><strong>NUMBER OF WIND MILLS: </strong>{{ value2 }}</p>
+    <p><strong>POWER PERCENTAGE: </strong>{{ A }}</p> 
+    <p> <img src="{{url_for('static',filename = 'temp2.jpg')}}" style="width: 800px; height: 320px;">  </p> 
+    
+ <!--    <p><strong>fuzz.partial_ratio: </strong><img src={{ B }} alt="Chart" height="42" width="42">   {{ B }}</p>
+ --> </div>
+
+    <!---
+    <p><strong>fuzz.token_sort_ratio: </strong>{{ C }}</p>
+    <p><strong>fuzz.token_set_ratio: </strong>{{ D }}</p>
+    -->
+
+
+</head>
+<body>
+
+</body>
+</html>
