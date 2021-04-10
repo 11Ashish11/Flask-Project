@@ -57,11 +57,20 @@ First create a folder and make a virual environment in it
 so that whatever you make changes , the changes would be limited upto that folder only
 and so , in this environment you will have to install every library again
 
-## Create an environment¶
+## Installing virtualenv
+> python3 -m pip install --user virtualenv
+
+## Creating a virtual environment¶
 > python3 -m venv venv
 
 ## Activate the environment¶
 > pip3 install Flask
+
+## Creating a virtual environment¶
+> python3 -m venv env
+
+#Activating a virtual environment¶
+> source env/bin/activate
 
 ## Install Flask¶
 > pip3 install Flask
@@ -71,6 +80,9 @@ and so , in this environment you will have to install every library again
 
 ## Install Matplotlib
 > pip3 install matplotlib
+
+## Install scikit-fuzzy
+> pip install scikit-fuzzy
 
 ## Now to run the file
 > python3 app.py
